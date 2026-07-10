@@ -1,0 +1,180 @@
+/* reset style */
+* {
+
+    padding: 0;
+    margin: 0;
+}
+img{
+    max-width: 100%;
+}
+
+/* header{
+    background-color: rgb(161, 136, 136);
+} */
+.logo {
+    font-weight: bold;
+    font-size: 32px;
+}
+
+/* common style */
+.common-btn {
+    background-color: orangered;
+    padding: 8px 4px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 22px;
+    color: white;
+    cursor: pointer;
+}
+.outline-btn {
+    background-color:white;
+    padding: 8px 4px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 22px;
+    color:orange;
+    border: 1px solid bisque;
+    cursor: pointer;
+}
+
+
+.logo-r {
+    color: rgb(182, 78, 37);
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+nav {
+    /* background-color: brown; */
+    display: flex;
+    /* justify-content: center; */
+    justify-content: space-between;
+    /* justify-content: space-evenly; */
+
+    padding: 12px 0px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 10px;
+    align-items: center;
+
+}
+
+ul li a {
+
+    text-decoration: none;
+}
+
+/* hero-section stylle */
+
+.hero-parent-root{
+    background-color:oldlace;
+}
+.hero-parent {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+/* .container {
+    max-width: 1200px;
+} */
+
+.hero-left h2 {
+    font-weight:600;
+    font-size: 40px;
+}
+.hero-left-p1{
+    font-size: 40px;
+    font-weight: 300;
+}
+.hero-left-button-parent{
+    margin: 8px;
+}
+
+/* about us */
+
+.about-parent{
+
+    background-color:oldlace;
+margin: 70px auto;
+margin: 70px auto;
+border-radius: 10px;
+padding: 20px;
+text-align: center;
+
+}
+.about-parent p{
+    margin: 10px 0;
+}
+.about-box-parent{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.about-box-parent .box{
+    background-color: rgb(37, 182, 49);
+    border-radius:  10px;
+    padding:20px ;
+}
+/* what i do  section css */
+.what-i-do-parent{
+    margin: 60px auto;
+    text-align: center;
+}
+.what-i-do-card-container{
+    margin-top:20px;
+    display: flex;
+    justify-content: space-between;
+gap: 10px;
+}
+
+.what-i-do-card{
+
+    border: 2px solid orange;
+    padding: 10px;
+    border-radius: 10px;
+}
+.what-i-do-card p{
+
+    color: black;
+    font-size: 15px;
+}
+.what-i-do-card h2{
+    margin: 10px 0px;
+}
+/* resume section start */
+.header{
+  text-align: center;
+
+}
+.h1{
+  display: flex;
+  justify-content: space-between;
+  max-width: 800px;
+  margin: 20px auto; 
+  /* text-align: center; */
+   
+}
+.h2{
+
+    display: flex;
+  justify-content: space-between;
+  max-width: 800px;
+  margin: 20px auto;
+}
+.h3{
+
+    display: flex;
+  justify-content: space-between;
+  max-width: 800px;
+  margin: 20px auto;
+}
